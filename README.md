@@ -16,7 +16,7 @@
 
 ### Немного кода
 
-```arduino
+```cpp
 Wallet wallet;
 if (minterApi.getAddress("Mx1234....4242", 0, wallet) == MINTERAPI_OK){
         Serial << prefix << "Wallet: " << wallet.address << ", count_txs: " << wallet.count_txs << ", length: " << wallet.balance.length() << endl;
