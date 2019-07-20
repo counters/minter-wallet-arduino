@@ -5,7 +5,7 @@
 #define HTTP_RESULT_STATUS 200 //200
 #define HTTP_RESULT_ERROR 0
 
-#define HTTP_DEBUG
+#define __HTTP_DEBUG // 
 // #define ARDUINO
 
 #if defined(ARDUINO)

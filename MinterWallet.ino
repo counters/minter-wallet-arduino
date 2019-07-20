@@ -160,7 +160,7 @@ void loop()
 
     if (minterApi.getAddress(walletAddress, 0, wallet) == MINTERAPI_OK)
     {
-#ifdef _DEBUG_ // #endif
+#ifdef __DEBUG_ // #endif
       minterApi.printWallet(wallet, "main ");
 #endif
       display.clear();

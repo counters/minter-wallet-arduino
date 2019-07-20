@@ -141,7 +141,7 @@ uint8_t MinterApi::parseWallet(const String json, Wallet &wallet)
 uint8_t MinterApi::get(const String method, const String params, String &content)
 {
     const String getUrl = String("/") + method + String("?") + params;
-#ifdef __MINTERAPI_DEBUG
+#ifdef _MINTERAPI_DEBUG
     // url = url.operator+=("/").operator+=(method).operator+=("?").operator+=(params);
     Serial << "MinterApi::get(" << method << "," << params << ") " << getUrl << endl;
 #endif
