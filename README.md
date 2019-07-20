@@ -1,4 +1,4 @@
-# minter-wallet-arduino
+# Minter wallet Arduino
 
 ![MMinter wallet Arduino ESP8266, ESP32](static/minter-wallet-arduino-ESP8266-ESP32.jpg "Minter wallet Arduino ESP8266, ESP32")
 
