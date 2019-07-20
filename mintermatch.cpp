@@ -1,6 +1,5 @@
 #include "mintermatch.h"
 
-
 String MinterMatch::NormalePip(String bigInt, uint8_t &length)
 {
     // const uint8_t length = bigInt.length();
@@ -29,12 +28,7 @@ float MinterMatch::getAmount(String bigInt)
     const String modulo = bigInt.substr(moduloLength);
     const String integer = bigInt.substr(0, moduloLength);
 #endif
-    // const String  numFloat = String(integer.operator+=(".").operator+=(modulo.substring(0, PIP_PRECISION)));
     const String  numFloat = integer+"."+modulo;
-    // numFloat.concat(integer, ",", modulo);
-    //         std::cout<<"numFloat "<< numFloat <<std::endl;
     const float numF = atof(numFloat.c_str());
-    //         sscanf(numFloat.c_str(), "%f", &numF);
-    //          const float numF = numFloat.toFloat();
     return numF;
 }
