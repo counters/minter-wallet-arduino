@@ -18,8 +18,7 @@ SSD1306Wire display(0x3c, D1, D2);
 #define DEMO_DURATION 5000
 long timeSinceLastModeSwitch = 0;
 
-#define _COIN_MAX_DISPLAY 10
-
+// #define _COIN_MAX_DISPLAY 10
 
 #if defined(ARDUINO_ESP8266_NODEMCU)
 // ARDUINO_ESP8266_NODEMCU
