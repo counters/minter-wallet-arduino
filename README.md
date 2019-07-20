@@ -1,5 +1,8 @@
 # minter-wallet-arduino
 
+![MMinter wallet Arduino ESP8266, ESP32](static/minter-wallet-arduino-ESP8266-ESP32.jpg "Minter wallet Arduino ESP8266, ESP32")
+
+
 ### Требуемые библиотеки
 Часть доступна через менеджер библиотек. Так же необходимо [установить поддержку ESP8266](https://github.com/esp8266/Arduino "установить поддержку ESP8266")
 * [WiFiManager](https://github.com/tzapu/WiFiManager)
